@@ -89,7 +89,7 @@ MODERN RENOVATOR
             Expert Home Remodeling and Pressure Washing Services with  Years of Excellence
           </motion.p>
           <motion.div 
-            className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4"
+            className="flex px-[5rem] md:px-1 flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4"
             initial="hidden"
             animate={isInView ? "visible" : "hidden"}
             variants={variants}

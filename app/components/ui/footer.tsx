@@ -55,7 +55,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-            <p>&copy; {new Date().getFullYear()} Surface Cure. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Modern Renovator. All rights reserved.</p>
           </div>
         </div>
       </footer>
