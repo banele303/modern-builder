@@ -122,7 +122,7 @@ export default function Secondcleaning() {
         <section className="bg-blue-600 text-white rounded-lg p-8 mb-16">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Space?</h2>
-            <p className="text-xl mb-6">Contact us today for a free consultation and quote. Let's bring your surfaces back to life!</p>
+            <p className="text-xl mb-6">Contact us today for a free consultation and quote. Let&apos;s bring your surfaces back to life!</p>
             <Button variant="secondary" size="lg">
               Get Your Free Quote
             </Button>
@@ -161,7 +161,7 @@ export default function Secondcleaning() {
                 <li>Driveway Cleaning and Sealing: Restore the appearance of your driveway and protect it from future damage.</li>
                 <li>Patio and Deck Restoration: Bring new life to your outdoor living spaces.</li>
                 <li>Roof Cleaning and Coating: Remove unsightly stains and protect your roof from the elements.</li>
-                <li>Exterior House Washing: Improve your home's curb appeal with a thorough exterior cleaning.</li>
+                <li>Exterior House Washing: Improve your home&apos;s curb appeal with a thorough exterior cleaning.</li>
                 <li>Window Cleaning: Enjoy crystal-clear views with our professional window cleaning services.</li>
                 <li>Gutter Cleaning: Prevent water damage by keeping your gutters clear and functioning properly.</li>
               </ul>
@@ -201,7 +201,7 @@ export default function Secondcleaning() {
             At Modern Renovetor, we are committed to delivering the highest quality cleaning and restoration services. Our team of skilled professionals is trained in the latest techniques and uses state-of-the-art equipment to ensure superior results every time.
           </p>
           <p className="text-lg text-gray-700 mb-6">
-            We understand that every property is unique, which is why we offer customized solutions tailored to your specific needs. Whether you're a homeowner looking to refresh your property's appearance or a business owner maintaining a professional image, we have the expertise to exceed your expectations.
+            We understand that every property is unique, which is why we offer customized solutions tailored to your specific needs. Whether you&apos;re a homeowner looking to refresh your property&apos;s appearance or a business owner maintaining a professional image, we have the expertise to exceed your expectations.
           </p>
           <p className="text-lg text-gray-700 mb-6">
             Our eco-friendly approach means that we use environmentally responsible cleaning products and methods whenever possible, ensuring that our services are not only effective but also safe for your family, employees, and the environment.

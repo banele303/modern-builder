@@ -44,7 +44,7 @@ export default function FRQ() {
                         <AccordionItem value="item-4">
                             <AccordionTrigger>What sets Modern Builder apart from other engineering firms?</AccordionTrigger>
                             <AccordionContent>
-                                Modern Builder stands out due to our innovative approach, multidisciplinary expertise, and commitment to sustainability. We combine cutting-edge technology with creative problem-solving to deliver unique solutions. Our team's diverse skills in both electrical and mechanical engineering allow us to tackle complex, integrated projects that other firms might struggle with.
+                                Modern Builder stands out due to our innovative approach, multidisciplinary expertise, and commitment to sustainability. We combine cutting-edge technology with creative problem-solving to deliver unique solutions. Our team&apos;s diverse skills in both electrical and mechanical engineering allow us to tackle complex, integrated projects that other firms might struggle with.
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-5">
