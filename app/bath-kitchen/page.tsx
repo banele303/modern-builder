@@ -10,6 +10,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import Footer from "../components/ui/footer";
 import SecondTestimonials from "../pressure-washing/second-testimonials";
+import ContactButtons from "../components/ui/contact-bottons";
 
 export default function Home() {
     return (
@@ -116,7 +117,7 @@ export default function Home() {
                     </Accordion>
                 </div>
             </section>
-
+<ContactButtons/>
             <Footer />
 
         </div>

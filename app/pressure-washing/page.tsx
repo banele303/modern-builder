@@ -11,6 +11,7 @@ import Footer from '../components/ui/footer'
 
 import Secondcleaning from './second-section'
 import SecondTestimonials from './second-testimonials'
+import ContactButtons from '../components/ui/contact-bottons'
 
 
 export default function RoofCleanHome() {
@@ -42,7 +43,7 @@ export default function RoofCleanHome() {
   return (
     <div className="">
       <Navbar/>
-
+<ContactButtons/>
       <main className="flex-grow">
         {/* Hero Section */}
         <section className="relative bg-blue-300 md:h-[70vh] text-white">
