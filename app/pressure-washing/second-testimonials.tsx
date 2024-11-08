@@ -43,7 +43,7 @@ export default function SecondTestimonials() {
                     </div>
                     <p className="font-semibold">{testimonial.name}, {testimonial.location}</p>
                   </div>
-                  <p className="mb-4 italic pt-3">"{testimonial.quote}"</p>
+                  <p className="mb-4 italic pt-3">&#34;{testimonial.quote}&#34;</p>
                  
                 </CardContent>
               </Card>

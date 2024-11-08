@@ -70,25 +70,47 @@ export default function Home() {
                         <AccordionItem value="item-2">
                             <AccordionTrigger>How does Modern Builder integrate sustainability into its projects?</AccordionTrigger>
                             <AccordionContent>
-                                Sustainability is a core principle in all our projects. We incorporate energy-efficient designs, use eco-friendly materials when possible, and optimize systems to reduce resource consumption. Our team stays updated on the latest green technologies and sustainable practices to ensure we're always offering the most environmentally responsible solutions.
+                                Sustainability is a core principle in all our projects.
+                                 We incorporate energy-efficient designs, use
+                                  eco-friendly materials when possible, and
+                                   optimize systems to reduce resource consumption.
+                                    Our team stays updated on the latest green
+                                     technologies and sustainable practices to 
+                                     ensure we&apos;re always offering the most 
+                                     environmentally responsible solutions.
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-3">
-                            <AccordionTrigger>Can Modern Builder handle both design and implementation of engineering projects?</AccordionTrigger>
+                            <AccordionTrigger>Can Modern Builder handle both design and 
+                                implementation of engineering projects?</AccordionTrigger>
                             <AccordionContent>
-                                Yes, we offer end-to-end engineering services. Our team can handle every phase of a project, from initial concept and design to implementation, testing, and ongoing maintenance. This comprehensive approach ensures seamless project execution and allows us to maintain high quality standards throughout the entire process.
+                                Yes, we offer end-to-end engineering services. Our team can
+                                 handle every phase of a project, from initial concept and design 
+                                 to implementation, testing, and ongoing maintenance. This comprehensive
+                                  approach ensures seamless project execution and allows us to maintain
+                                   high quality standards throughout the entire process.
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-4">
                             <AccordionTrigger>What sets Modern Builder apart from other engineering firms?</AccordionTrigger>
                             <AccordionContent>
-                                Modern Builder stands out due to our innovative approach, multidisciplinary expertise, and commitment to sustainability. We combine cutting-edge technology with creative problem-solving to deliver unique solutions. Our team's diverse skills in both electrical and mechanical engineering allow us to tackle complex, integrated projects that other firms might struggle with.
+                                Modern Builder stands out due to our innovative approach,
+                                 multidisciplinary expertise, and commitment to sustainability.
+                                  We combine cutting-edge technology with creative problem-solving 
+                                  to deliver unique solutions. Our team&apos;s diverse skills in both 
+                                  electrical and mechanical engineering allow us to tackle complex, 
+                                  integrated projects that other firms might struggle with.
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-5">
                             <AccordionTrigger>Does Modern Builder offer consulting services?</AccordionTrigger>
                             <AccordionContent>
-                                Yes, we provide expert consulting services in both electrical and mechanical engineering. Our consultants can assist with project planning, feasibility studies, system optimization, and technical audits. We work closely with clients to understand their needs and provide tailored advice to help them make informed decisions and achieve their goals.
+                                Yes, we provide expert consulting services in both 
+                                electrical and mechanical engineering. Our consultants can assist with project 
+                                planning, feasibility studies, system optimization,
+                                 and technical audits. We work closely with clients
+                                  to understand their needs and provide tailored
+                                   advice to help them make informed decisions and achieve their goals.
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>

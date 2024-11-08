@@ -1,13 +1,12 @@
 import { useState } from 'react'
-import Image from 'next/image'
-import Link from 'next/link'
+
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { ChevronRight, Phone, Mail, MapPin, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react'
+import { ChevronRight } from 'lucide-react'
 
 export default function Secondcleaning() {
-  const [activeTab, setActiveTab] = useState('residential')
+  const [, setActiveTab] = useState('residential')
 
   const services = [
     {
@@ -53,11 +52,11 @@ export default function Secondcleaning() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
-      
+
 
       <main className="container mx-auto px-4 py-12">
         <section className="text-center mb-16">
-          
+
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             At Modern Renovetor, we provide top-notch cleaning and restoration services for residential, commercial, and industrial properties.
           </p>
@@ -153,7 +152,7 @@ export default function Secondcleaning() {
         {/* Additional Service Information */}
         <section className="mt-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">Our Comprehensive Services</h2>
-          
+
           <div className="space-y-12">
             <div>
               <h3 className="text-2xl font-semibold mb-4">Residential Services</h3>
@@ -222,7 +221,7 @@ export default function Secondcleaning() {
         </section>
       </main>
 
-     
+
     </div>
   )
 }

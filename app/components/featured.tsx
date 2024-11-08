@@ -2,10 +2,7 @@
 "use client"
 import { useState } from 'react'
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Zap, Cog, Shield, Users, CheckCircle, Wrench, Cpu, Lightbulb, Thermometer, Activity, Wifi, Droplet, Truck, Maximize } from 'lucide-react'
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import Image from 'next/image'
 import ContactButtons from './ui/contact-bottons'
 
@@ -14,7 +11,7 @@ import ContactButtons from './ui/contact-bottons'
 
 
 export default function Featured() {
-  const [activeTab, setActiveTab] = useState("electrical")
+
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -60,7 +57,7 @@ export default function Featured() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <p className="text-[17px] mb-4 opacity-90">
-                Malunjwa Company is a leading engineering firm specializing in cutting-edge electrical and mechanical solutions. With decades of experience and a team of highly skilled engineers, we tackle complex challenges and deliver innovative results.
+                MODERN RENOVATOR is a leading engineering firm specializing in cutting-edge electrical and mechanical solutions. With decades of experience and a team of highly skilled engineers, we tackle complex challenges and deliver innovative results.
               </p>
               <p className="text-[17px] mb-4 opacity-90">
                 Our commitment to excellence, sustainability, and client satisfaction sets us apart in the industry. We leverage the latest technologies and methodologies to ensure that every project we undertake is completed to the highest standards.
@@ -209,19 +206,27 @@ export default function Featured() {
             <div>
               <h3 className="text-xl font-semibold mb-4">Innovative Solutions</h3>
               <p className="mb-4">
-                At MODERN RENOVATOR, we believe in pushing the boundaries of what's possible. Our team of expert  combines cutting-edge technology with creative problem-solving to deliver innovative solutions that meet and exceed our clients expectations.
+                At MODERN RENOVATOR, we believe in pushing the boundaries of what&apos;s possible. 
+                Our team of expert  combines cutting-edge technology with creative problem-solving
+                 to deliver innovative solutions that meet and exceed our clients expectations.
               </p>
               <p>
-                We stay at the forefront of industry trends and continuously invest in research and development to bring the latest advancements to our projects.
+                We stay at the forefront of industry trends and continuously 
+                invest in research and development to bring the latest advancements to our projects.
               </p>
             </div>
             <div>
               <h3 className="text-xl font-semibold mb-4">Sustainable </h3>
               <p className="mb-4">
-                Sustainability is at the core of our engineering philosophy. We design with the future in mind, incorporating eco-friendly practices and energy-efficient solutions into all our projects.
+                Sustainability is at the core of our engineering
+                 philosophy. We design with the future in mind,
+                  incorporating eco-friendly practices and
+                   energy-efficient solutions into all our projects.
               </p>
               <p>
-                Our commitment to sustainable engineering not only benefits the environment but also provides long-term cost savings and improved performance for our clients.
+                Our commitment to sustainable engineering not 
+                only benefits the environment but also provides 
+                long-term cost savings and improved performance for our clients.
               </p>
             </div>
           </div>
@@ -241,7 +246,12 @@ export default function Featured() {
               </CardHeader>
               <CardContent>
                 <Image src="/kitchenr/kitchen-remodeling1.jpg" alt="HVAC System" width={400} height={200} className="w-full h-auto max-w-[400px] max-h-[200px] rounded-md object-cover" />
-                <p className='pt-4'>Our general building services are designed to meet all your construction and renovation needs.  From foundations to finishes, we ensure high-quality craftsmanship, timely delivery, and attention to detail at every step of the process.</p>
+                <p className='pt-4'>Our general building 
+                  services are designed to meet all your 
+                  construction and renovation needs.  From 
+                  foundations to finishes, we ensure 
+                  high-quality craftsmanship, timely 
+                  delivery, and attention to detail at every step of the process.</p>
 
                 <div className="mt-1 items-start flex justify-start ">
                   <button
@@ -265,7 +275,14 @@ export default function Featured() {
               </CardHeader>
               <CardContent>
                 <Image src="/building/roof-painting.jpeg" alt="HVAC System" width={400} height={200} className="w-full h-auto max-w-[400px] max-h-[200px] rounded-md object-cover" />
-                <p className='py-2'>Transform your space with our expert painting services. Whether you're refreshing a single room, updating your entire home, or tackling a commercial project, we provide high-quality interior and exterior painting that enhances the beauty and value of your property.</p>
+                <p className='py-2'>Transform your space
+                   with our expert painting services.
+                    Whether you&#39;re refreshing a single 
+                    room, updating your entire home, or 
+                    tackling a commercial project, we 
+                    provide high-quality interior and
+                     exterior painting that enhances 
+                     the beauty and value of your property.</p>
 
                 <div className="mt-1 items-start flex justify-start ">
                   <button
@@ -317,7 +334,7 @@ export default function Featured() {
       <section className="py-16 bg-yellow-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Engineer Your Success?</h2>
-          <p className="text-xl mb-8">Contact MALUNJWA Company today for innovative electrical and mechanical solutions.</p>
+          <p className="text-xl mb-8">Contact MODERN RENOVATOR today for innovative electrical and mechanical solutions.</p>
           <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-blue-100">
             Get in Touch
           </Button>

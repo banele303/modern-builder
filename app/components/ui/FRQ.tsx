@@ -32,7 +32,7 @@ export default function FRQ() {
                         <AccordionItem value="item-2">
                             <AccordionTrigger>How does Modern Builder integrate sustainability into its projects?</AccordionTrigger>
                             <AccordionContent>
-                                Sustainability is a core principle in all our projects. We incorporate energy-efficient designs, use eco-friendly materials when possible, and optimize systems to reduce resource consumption. Our team stays updated on the latest green technologies and sustainable practices to ensure we're always offering the most environmentally responsible solutions.
+                                Sustainability is a core principle in all our projects. We incorporate energy-efficient designs, use eco-friendly materials when possible, and optimize systems to reduce resource consumption. Our team stays updated on the latest green technologies and sustainable practices to ensure we&#39;re always offering the most environmentally responsible solutions.
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-3">
