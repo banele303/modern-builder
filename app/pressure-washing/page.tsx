@@ -46,7 +46,7 @@ export default function RoofCleanHome() {
       <ContactButtons />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="relative bg-blue-300 md:h-[70vh] text-white">
+        <section className="relative bg-blue-300 h-[85vh] md:h-[70vh] text-white">
           <div className="absolute inset-0 overflow-hidden ">
             <Image
               src="/cleaning/cement cleaning.png"
@@ -77,7 +77,7 @@ export default function RoofCleanHome() {
         {/* Welcome Section */}
         <section className="py-16">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-8">Welcome to Roof Clean</h2>
+            <h2 className="text-3xl font-bold text-center mb-8">Welcome to Modern Renovator</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <div>
                 <p className="mb-4">At Modern Renovator we specialize in high-quality pressure washing services to revitalize your driveway, walls, pool areas, and cement surfaces. Our team uses advanced equipment and techniques to effectively remove dirt, grime, and tough stains, restoring your surfaces to their original beauty and brightness.
