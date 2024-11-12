@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
 import { ArrowRight, Droplets, Home, Shield, ChevronDown, ChevronUp } from 'lucide-react'
-import Navbar from '../components/ui/Navbar'
+
 import Footer from '../components/ui/footer'
 
 import Secondcleaning from './second-section'
@@ -56,7 +56,7 @@ export default function RoofCleanHome() {
               className="opacity-30"
             />
           </div>
-          <div className="container mx-auto px-4  pt-[4rem] relative z-10 md:max-w-6xl md:px-[4rem]">
+          <div className="container mx-auto px-4  pt-[2rem] md:pt-[4rem] relative z-10 md:max-w-6xl md:px-[4rem]">
             <h1 className="text-3xl md:text-5xl font-bold mb-4 pt-[6rem]">Professional Pressure washing Services in Gauteng</h1>
             <p className="text-xl md:text-2xl mb-8">Restore your home beauty and extend its lifespan with our expert cleaning solutions.</p>
             <div className="">
