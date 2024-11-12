@@ -5,13 +5,14 @@ import { useState } from 'react'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
-import { ArrowRight,Droplets, Home, Shield,  ChevronDown, ChevronUp } from 'lucide-react'
+import { ArrowRight, Droplets, Home, Shield, ChevronDown, ChevronUp } from 'lucide-react'
 import Navbar from '../components/ui/Navbar'
 import Footer from '../components/ui/footer'
 
 import Secondcleaning from './second-section'
 import SecondTestimonials from './second-testimonials'
 import ContactButtons from '../components/ui/contact-bottons'
+import LandingNav from './landing-nav'
 
 
 export default function RoofCleanHome() {
@@ -20,30 +21,29 @@ export default function RoofCleanHome() {
   const toggleFaq = (index: number) => {
     setOpenFaq(openFaq === index ? null : index)
   }
-
   const faqItems = [
     {
-      question: "How often should I have my roof cleaned?",
-      answer: "The frequency of roof cleaning depends on various factors such as the type of roof, surrounding environment, and climate. Generally, we recommend having your roof cleaned every 2-3 years. However, if you notice significant moss or algae growth, it might be time for a cleaning sooner."
+      question: "How often should I have my house or driveway cleaned?",
+      answer: "The frequency of cleaning depends on factors like the type of surface, surrounding environment, and local climate. We generally recommend having your driveway or house exterior cleaned once a year. However, if you notice significant buildup of dirt, moss, or algae, it might be beneficial to schedule a cleaning sooner."
     },
     {
-      question: "Is your roof cleaning process safe for all types of roofs?",
-      answer: "Yes, our cleaning process is safe for all types of roofs. We use specialized equipment and eco-friendly cleaning solutions that are effective yet gentle on your roof material. Our team is trained to handle different roof types including tiles, slate, thatch, and corrugated iron."
+      question: "Is your cleaning process safe for all types of driveways and paving?",
+      answer: "Yes, our cleaning process is safe for various types of driveways and paving, including concrete, pavers, asphalt, and brick. We use specialized equipment and eco-friendly solutions that are tough on grime but gentle on your surfaces. Our team is trained to clean different surface materials safely and effectively."
     },
     {
-      question: "How long does a typical roof cleaning take?",
-      answer: "The duration of a roof cleaning job depends on the size and condition of your roof. On average, a standard residential roof cleaning can take anywhere from 2-4 hours. For larger roofs or those with heavy moss or algae growth, it may take longer. We'll provide you with a time estimate before starting the job."
+      question: "How long does a typical driveway or house wash take?",
+      answer: "The duration of a driveway or house washing job depends on the size and condition of the area. On average, a standard residential driveway cleaning takes 1-2 hours, while a house wash may take a bit longer. For larger areas or those with heavy buildup, it may take additional time. We'll provide you with a time estimate before starting the job."
     },
     {
       question: "Do you offer any guarantees on your work?",
-      answer: "Yes, we stand behind the quality of our work. We offer a satisfaction guarantee on all our services. If you're not completely satisfied with the results, we'll return to address any issues at no additional cost. We also provide a 6-month guarantee against the regrowth of moss and algae."
+      answer: "Yes, we stand behind the quality of our work. We offer a satisfaction guarantee on all our services. If you're not completely satisfied with the results, we'll return to address any issues at no additional cost. We also provide a 6-month guarantee against the regrowth of moss and algae on paved surfaces."
     }
-  ]
-
+  ];
+  
   return (
     <div className="">
-      <Navbar/>
-<ContactButtons/>
+      <LandingNav/>
+      <ContactButtons />
       <main className="flex-grow">
         {/* Hero Section */}
         <section className="relative bg-blue-300 md:h-[70vh] text-white">
@@ -57,12 +57,20 @@ export default function RoofCleanHome() {
             />
           </div>
           <div className="container mx-auto px-4  pt-[4rem] relative z-10 md:max-w-6xl md:px-[4rem]">
-            <h1 className="text-3xl md:text-5xl font-bold mb-4 pt-[6rem]">Professional Roof Cleaning Services in Gauteng</h1>
-            <p className="text-xl md:text-2xl mb-8">Restore your roofs beauty and extend its lifespan with our expert cleaning solutions.</p>
-            <Button size="lg" className="bg-white text-blue-600 hover:bg-blue-50">
-              Get a Free Quote
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
+            <h1 className="text-3xl md:text-5xl font-bold mb-4 pt-[6rem]">Professional Pressure washing Services in Gauteng</h1>
+            <p className="text-xl md:text-2xl mb-8">Restore your home beauty and extend its lifespan with our expert cleaning solutions.</p>
+            <div className="">
+
+              <a
+                href="https://wa.me/27631995124" // Replace with your actual WhatsApp number
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-green-500 max-w-[12rem] hover:bg-green-700 text-white p-3 rounded-md shadow-lg flex items-center justify-center transition-transform transform hover:scale-105"
+                aria-label="WhatsApp"
+              > Get a Free Quote <ArrowRight className="ml-2 h-5 w-5" /></a>
+
+
+            </div>
           </div>
         </section>
 
@@ -72,13 +80,14 @@ export default function RoofCleanHome() {
             <h2 className="text-3xl font-bold text-center mb-8">Welcome to Roof Clean</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <div>
-                <p className="mb-4">Modern Renovator is Johannesburgs premier Pressure cleaning company, specializing in the cleaning of all types of roofs including tiles, slate, thatch, and corrugated iron. With over 10 years of experience, weve built a reputation for excellence in Gauteng</p>
-                <p className="mb-4">Our team of certified professionals uses state-of-the-art equipment and eco-friendly cleaning solutions to ensure your roof is cleaned thoroughly and safely, without causing any damage to the roof or surrounding areas.</p>
-                <p>We pride ourselves on our attention to detail, commitment to customer satisfaction, and our use of innovative cleaning techniques. Contact us today to schedule your roof cleaning service and experience the Roof Clean difference!</p>
+                <p className="mb-4">At Modern Renovator we specialize in high-quality pressure washing services to revitalize your driveway, walls, pool areas, and cement surfaces. Our team uses advanced equipment and techniques to effectively remove dirt, grime, and tough stains, restoring your surfaces to their original beauty and brightness.
+             </p>
+                <p className="mb-4">We understand how important a clean, well-maintained property is for curb appeal and long-term value. Whether its years of buildup on your driveway or algae growth around your pool, our experienced technicians are equipped to handle all types of challenges safely and efficiently. We prioritize customer satisfaction and go the extra mile to ensure sparkling results with every job.</p>
+                <p>Transform your property with professional pressure washing that you can trust. Contact us today to schedule a service and discover the difference a thorough cleaning can make to your homes exterior!</p>
               </div>
               <div className="relative h-64 md:h-full">
                 <Image
-                  src="/cleaning/roofcleaning.png"
+                  src="/cleaning/paving cleaning.png"
                   alt="Roof Clean team at work"
                   layout="fill"
                   objectFit="cover"
@@ -95,41 +104,41 @@ export default function RoofCleanHome() {
             <h2 className="text-3xl font-bold text-center mb-12">Our Services</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {[
-                { 
-                  title: "Roof Cleaning", 
-                  icon: Home, 
+                {
+                  title: "Roof Cleaning",
+                  icon: Home,
                   image: "/cleaning/roofp1.png",
-                  description: "We clean all types of roofs, removing moss, algae, and debris. Our gentle yet effective process preserves your roof's integrity while restoring its appearance." 
+                  description: "We clean all types of roofs, removing moss, algae, and debris. Our gentle yet effective process preserves your roof's integrity while restoring its appearance."
                 },
-                { 
-                  title: "High-Pressure Cleaning", 
-                  icon: Droplets, 
-                   image: "/cleaning/cement cleaning.png",
-                  description: "Our high-pressure cleaning service is perfect for driveways, walls, and other hard surfaces. We adjust our equipment to provide the right pressure for each surface type." 
+                {
+                  title: "High-Pressure Cleaning",
+                  icon: Droplets,
+                  image: "/cleaning/cement cleaning.png",
+                  description: "Our high-pressure cleaning service is perfect for driveways, walls, and other hard surfaces. We adjust our equipment to provide the right pressure for each surface type."
                 },
-                { 
-                  title: "High-Pressure Cleaning", 
-                  icon: Droplets, 
+                {
+                  title: "High-Pressure Cleaning",
+                  icon: Droplets,
                   image: "/cleaning/dckingcleaning.png",
-                  description: "Our high-pressure cleaning service is perfect for driveways, walls, and other hard surfaces. We adjust our equipment to provide the right pressure for each surface type." 
+                  description: "Our high-pressure cleaning service is perfect for driveways, walls, and other hard surfaces. We adjust our equipment to provide the right pressure for each surface type."
                 },
-                { 
-                  title: "Tiles and Swimming Pools Cleaning", 
-                  icon: Droplets, 
+                {
+                  title: "Tiles and Swimming Pools Cleaning",
+                  icon: Droplets,
                   image: "/cleaning/poolcleaning.png",
-                  description: "Our high-pressure cleaning service is perfect for driveways, walls, and other hard surfaces. We adjust our equipment to provide the right pressure for each surface type." 
+                  description: "Our high-pressure cleaning service is perfect for driveways, walls, and other hard surfaces. We adjust our equipment to provide the right pressure for each surface type."
                 },
-                { 
-                  title: "Wall Cleaning", 
-                  icon: Droplets, 
-                   image: "/cleaning/wallcleaning.png",
-                  description: "Our high-pressure cleaning service is perfect for driveways, walls, and other hard surfaces. We adjust our equipment to provide the right pressure for each surface type." 
+                {
+                  title: "Wall Cleaning",
+                  icon: Droplets,
+                  image: "/cleaning/wallcleaning.png",
+                  description: "Our high-pressure cleaning service is perfect for driveways, walls, and other hard surfaces. We adjust our equipment to provide the right pressure for each surface type."
                 },
-                { 
-                  title: "And More Cleaning", 
-                  icon: Shield, 
-                   image: "/cleaning/more.png",
-                  description: "We clear your gutters of leaves and debris to prevent water damage. Our thorough process includes checking downpipes to ensure proper water flow." 
+                {
+                  title: "And More Cleaning",
+                  icon: Shield,
+                  image: "/cleaning/more.png",
+                  description: "We clear your gutters of leaves and debris to prevent water damage. Our thorough process includes checking downpipes to ensure proper water flow."
                 }
               ].map((service, index) => (
                 <Card key={index}>
@@ -141,15 +150,15 @@ export default function RoofCleanHome() {
                   </CardHeader>
                   <CardContent>
 
-                  <div className="relative h-48 w-full">
-                  <Image
-                    src={service.image}
-                    alt={service.title}
-                    layout="fill"
-                    objectFit="cover"
-                    className="rounded-md"
-                  />
-                </div>
+                    <div className="relative h-48 w-full">
+                      <Image
+                        src={service.image}
+                        alt={service.title}
+                        layout="fill"
+                        objectFit="cover"
+                        className="rounded-md"
+                      />
+                    </div>
 
                     <p className='pt-5'>{service.description}</p>
                   </CardContent>
@@ -166,17 +175,17 @@ export default function RoofCleanHome() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <div>
                 <ol className="list-decimal list-inside space-y-4">
-                  <li className="font-semibold">Initial Inspection: We thoroughly assess your roofs condition and identify any potential issues.</li>
-                  <li className="font-semibold">Preparation: We protect surrounding areas and vegetation from cleaning runoff.</li>
-                  <li className="font-semibold">Pre-treatment: We apply a specialized cleaning solution to loosen dirt, moss, and algae.</li>
-                  <li className="font-semibold">Gentle Cleaning: Using our soft wash system, we clean your roof without damaging the surface.</li>
-                  <li className="font-semibold">Rinse and Inspection: We thoroughly rinse your roof and perform a final inspection.</li>
-                  <li className="font-semibold">Clean-up: We ensure all surrounding areas are clean and tidy before we leave.</li>
+                  <li className="">Initial Inspection: We thoroughly assess your house condition and identify any potential cleaning issues.</li>
+                  <li className="">Preparation: We protect surrounding areas and vegetation from cleaning runoff.</li>
+                  <li className="">Pre-treatment: We apply a specialized cleaning solution to loosen dirt, moss, and algae.</li>
+                  <li className="">Gentle Cleaning: Using our soft wash system, we clean your house without damaging the surface.</li>
+                  <li className="">Rinse and Inspection: We thoroughly rinse your space and perform a final inspection.</li>
+                  <li className="">Clean-up: We ensure all surrounding areas are clean and tidy before we leave.</li>
                 </ol>
               </div>
               <div className="relative h-64 md:h-full">
                 <Image
-                  src="/cleaning/paving cleaning.png"
+                  src="/cleaning/poolcleaning2.png"
                   alt="Roof cleaning process"
                   layout="fill"
                   objectFit="cover"
@@ -211,7 +220,7 @@ export default function RoofCleanHome() {
           </div>
         </section> */}
 
-        <Secondcleaning/>
+        <Secondcleaning />
 
         {/* Testimonials */}
         {/* <section className="py-16 bg-gray-50">
@@ -226,14 +235,14 @@ export default function RoofCleanHome() {
                 <Card key={index}>
                   <CardContent className="pt-6">
                     <p className="mb-4 italic">"{testimonial.quote}"</p>
-                    <p className="font-semibold">- {testimonial.name}</p>
+                    <p className="">- {testimonial.name}</p>
                   </CardContent>
                 </Card>
               ))}
             </div>
           </div>
         </section> */}
-<SecondTestimonials/>
+        <SecondTestimonials />
         {/* FAQ Section */}
         <section className="py-16">
           <div className="container mx-auto px-4">
@@ -259,7 +268,7 @@ export default function RoofCleanHome() {
           </div>
         </section>
 
-       
+
 
         {/* Call-to-Action */}
         <section className="py-16 bg-blue-600 text-white">
@@ -274,8 +283,8 @@ export default function RoofCleanHome() {
         </section>
       </main>
 
-     <Footer/>
+      <Footer />
     </div>
   )
-}   
+}
 

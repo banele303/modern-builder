@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-semibold mb-4">Surface Cure</h3>
+              <h3 className="text-xl font-semibold mb-4">Modern Renovator</h3>
               <p className="mb-4">Transforming surfaces, one project at a time.</p>
               <div className="flex space-x-4">
                 <a href="#" className="text-gray-400 hover:text-white"><Facebook size={20} /></a>
@@ -41,11 +41,11 @@ export default function Footer() {
               <ul className="space-y-2">
                 <li className="flex items-center space-x-2">
                   <Phone size={16} />
-                  <span>+27 (0)82 904 4545</span>
+                  <span>+27 (0)81 375 3372</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <Mail size={16} />
-                  <a href="mailto:info@surfacecure.co.za" className="text-gray-400 hover:text-white">info@surfacecure.co.za</a>
+                  <a href="mailto:info@modernrenovator.co.za" className="text-gray-400 hover:text-white">info@modernrenovator.co.za</a>
                 </li>
                 <li className="flex items-center space-x-2">
                   <MapPin size={16} />

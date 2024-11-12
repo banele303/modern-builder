@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import { ArrowRight } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
@@ -123,9 +123,16 @@ export default function Secondcleaning() {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Space?</h2>
             <p className="text-xl mb-6">Contact us today for a free consultation and quote. Let&apos;s bring your surfaces back to life!</p>
-            <Button variant="secondary" size="lg">
-              Get Your Free Quote
-            </Button>
+            <div className=" flex justify-center">
+
+<a
+  href="https://wa.me/27631995124" // Replace with your actual WhatsApp number
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-green-500 max-w-[12rem] hover:bg-green-700 text-white p-3 rounded-md shadow-lg flex items-center justify-center transition-transform transform hover:scale-105"
+  aria-label="WhatsApp"
+> Get a Free Quote <ArrowRight className="ml-2 h-5 w-5" /></a>
+          </div>
           </div>
         </section>
 
@@ -214,9 +221,18 @@ export default function Secondcleaning() {
             Ready to experience the Modern Renovetor difference? Contact us today to schedule your free consultation and quote. Let us show you how we can transform your surfaces and exceed your expectations.
           </p>
           <div className="flex justify-center">
-            <Button size="lg">
-              Contact Us Now
-            </Button>
+          <div className="">
+
+<a
+  href="https://wa.me/27631995124" // Replace with your actual WhatsApp number
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-green-500 max-w-[12rem] hover:bg-green-700 text-white p-3 rounded-md shadow-lg flex items-center justify-center transition-transform transform hover:scale-105"
+  aria-label="WhatsApp"
+> Get a Free Quote <ArrowRight className="ml-2 h-5 w-5" /></a>
+
+
+</div>
           </div>
         </section>
       </main>
